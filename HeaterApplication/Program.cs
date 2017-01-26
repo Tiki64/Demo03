@@ -11,7 +11,7 @@ namespace HeaterApplication
         static void Main(string[] args)
         {
             //create one instance of heater class
-            //testing...
+            //testing....
         }
     }
 }
