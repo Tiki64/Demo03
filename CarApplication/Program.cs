@@ -30,7 +30,7 @@ namespace CarApplication
             Speed -= value;
         }
 
-        //method to display car properties
+        //method to display car propertiess
         public void PrintData()
         {
             Console.WriteLine("Car data:");
