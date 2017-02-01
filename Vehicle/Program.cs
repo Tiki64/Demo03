@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TV
+namespace Vehicle
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Television telkku = new TV.Television("1920x1080");
-            telkku
+            Vehicle vehicle = new Vehicle("Nissan", 100);
+            vehicle.Tiedot();
+            Console.ReadLine();
         }
     }
 }

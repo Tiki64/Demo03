@@ -11,10 +11,14 @@ namespace PesukoneApplication
         static void Main(string[] args)
         {
             //create one instance of class
-            Pesukone pesukone = new Pesukone(40);
+            Console.WriteLine("Anna lämpötila ");
+            int lampotila = int.Parse(Console.ReadLine());
+            Pesukone pesukone = new Pesukone(lampotila);
             pesukone.Model = "Pesukone A1";
             pesukone.On = true;
             pesukone.PrintData();
+
+            Console.Read();
         }
     }
 }
